@@ -1,7 +1,11 @@
-<img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full2.aa1e9d9.svg">
+<p align="center">
+    <a href="https://hacktoberfest.digitalocean.com/">
+        <img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full2.aa1e9d9.svg" width="50%">
+    </a>
+</p>
 
 # Pro Lang
-Contribute a Data Structure you coded or solve the problems given in the `Description.md` file in any language! Happy coding!
+Contribute a Data Structure you coded or solve the problems given in the `Description.md` file (can be found in the both the folders) in any language! Happy coding!
 
 
 # About 
@@ -10,6 +14,8 @@ Contribute a Data Structure you coded or solve the problems given in the `Descri
 - Hacktoberfest is a month-long celebration of open source software run by DigitalOcean. 
 
 - During the month of October, everyone is invited to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. It can be done in a variety of [ways](https://hacktoberfest.digitalocean.com/). 
+
+- This year the first 50,000 participants can earn a T-Shirt. To get one, you must make four approved pull requests (PRs) that are labelled as `hacktoberfest-accepted` between October 1-31.
 
 
 ## What is Open Source?
@@ -29,6 +35,11 @@ Contribute a Data Structure you coded or solve the problems given in the `Descri
 - If you face any issue or make a mistake in a `pull request`(PR), IAS will help you out.
 - No repetition of programs will be entertained.
 - Make your PR now!
+
+# Rules
+
+- The pull request must contain commits you made yourself only and must not be plagiarized.
+- If your PR is marked as spam, it will not be considered for Hacktoberfest.
 
 ## Do not know how to make a Pull Request?
 ***Follow these steps:***
