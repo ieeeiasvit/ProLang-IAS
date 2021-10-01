@@ -25,3 +25,5 @@
 
 
 <h3 align="center"> Happy Contributing ! </h3>
+
+<img src="https://hacktoberfest.digitalocean.com/_nuxt/img/logo-hacktoberfest-full.f42e3b1.svg">
