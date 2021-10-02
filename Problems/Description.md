@@ -1,6 +1,8 @@
-# Check AB
+# Question 1
 
-# Suppose you have a string, S, made up of only 'a's and 'b's. Write a recursive program that checks if the string was generated using the following rules:
+## Check AB
+
+### Suppose you have a string, S, made up of only 'a's and 'b's. Write a recursive program that checks if the string was generated using the following rules:
 
 
 **a. The string begins with an 'a'**
@@ -39,6 +41,9 @@
 **Sample Output 1 :**
 
   true
+  
+  
+ # Question 2
   
 **Sample Input 2 :**
 
