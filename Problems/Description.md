@@ -1,4 +1,4 @@
-**Check AB
+#Check AB
 
 **Suppose you have a string, S, made up of only 'a's and 'b's. Write a recursive function that checks if the string was generated using the following rules:
 a. The string begins with an 'a'
