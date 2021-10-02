@@ -43,8 +43,6 @@
   true
   
   
- # Question 2
-  
 **Sample Input 2 :**
 
   abababa
@@ -52,3 +50,6 @@
 **Sample Output 2 :**
 
   false
+  
+  
+ # Question 2
