@@ -7,7 +7,6 @@
 # Pro Lang
 Contribute a Data Structure you coded or solve the problems given in the `Description.md` file (can be found in the both the folders) in any language! Happy coding!
 
-
 # About 
 
 ## What is Hacktoberfest 2021?
@@ -47,3 +46,11 @@ Contribute a Data Structure you coded or solve the problems given in the `Descri
 - Add the changes on the forked repository.
 - Go to the `Pull Requests` section and click the `New Pull Request` button.
 - Compare the changes you make with the master branch, click `Create Pull Request` button.
+
+
+
+# 
+<img src="https://img.shields.io/github/forks/ieeeiasvit/ProLang-IAS?color=blue">
+<img src="https://img.shields.io/github/issues-pr/ieeeiasvit/ProLang-IAS.svg?color=indigo">
+<img src="https://img.shields.io/github/issues/ieeeiasvit/ProLang-IAS?color=blue"> 
+<img src="https://img.shields.io/github/stars/ieeeiasvit/ProLang-IAS?color=indigo">   
