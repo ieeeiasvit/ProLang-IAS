@@ -27,7 +27,7 @@
 
   'true' or 'false'
   
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
@@ -114,7 +114,7 @@ The input consists of five lines, each line contains five integers: the j-th int
 
 Print a single integer — the minimum number of moves needed to make the matrix beautiful.
   
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
@@ -163,7 +163,7 @@ The next line contains n space-separated integer numbers. The i-th number ai (1�
 
 Output n integer numbers separated by spaces, where the i-th number is the amount of cubes in the i-th column after the gravity switch.
   
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
@@ -206,7 +206,7 @@ The second line contains the string of length n consisting only from zeros and o
 
 Output the minimum length of the string that may remain after applying the described operations several times.
   
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
@@ -272,7 +272,7 @@ The third line contains M integers B1,B2,…,BM.<br>
 
 For each test case, output M space-separated integers C1,C2,…,CM, where Ci is the minimum time required by the i-th traveller to reach his destination and if the i-th traveller can't reach his destination, Ci=−1.
 
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
@@ -320,7 +320,7 @@ Each test case contains a single line of input, four integers D,d,P,Q.
 
 For each test case, output in a single line the answer to the problem.
 
--------------------------------------------------
+ ------------------------------------------------------------------------------------------------------------
 
 **Sample Input 1 :**
 
