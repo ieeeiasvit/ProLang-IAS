@@ -221,7 +221,7 @@ Output the minimum length of the string that may remain after applying the descr
 **Sample Input 2 :**
 
 5<br>
-01010
+01010<br>
   
 **Sample Output 2 :**
 
@@ -306,7 +306,7 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 
 1≤T≤105<br>
 1≤d≤D≤106<br>
-1≤P,Q≤106<br>
+1≤P,Q≤106
 
  ------------------------------------------------------------------------------------------------------------
 
@@ -326,7 +326,7 @@ For each test case, output in a single line the answer to the problem.
 3 <br>
 2 1 1 1<br>
 3 2 1 1<br>
-5 2 1 2<br>
+5 2 1 2
 
 **Sample Output 1 :**
 
@@ -367,58 +367,55 @@ Next line contains the number B
 **Output format :**
 
 Print the maximum woven number
+<br><br>
 
-# QUESTION 9
+# Question 9
 
+### You are developing a smartphone app. You have a list of potential customers for your app. Each customer has a budget and will buy the app at your declared price if and only if the price is less than or equal to the customer's budget.
 
-You are developing a smartphone app. You have a list of potential customers for your app. Each customer has a budget and will buy the app at your declared price if and only if the price is less than or equal to the customer's budget.
+**You want to fix a price so that the revenue you earn from the app is maximized. Find this maximum possible revenue.**
 
+**For instance, suppose you have 4 potential customers and their budgets are 30, 20, 53 and 14. In this case, the maximum revenue you can get is 60.**
 
-You want to fix a price so that the revenue you earn from the app is maximized. Find this maximum possible revenue.
+ ------------------------------------------------------------------------------------------------------------
 
+**Input format :**
 
-For instance, suppose you have 4 potential customers and their budgets are 30, 20, 53 and 14. In this case, the maximum revenue you can get is 60 .
-
-
-## Input format
-Line 1 : N, the total number of potential customers.
-
+Line 1 : N, the total number of potential customers.<br>
 Lines 2 to N+1: Each line has the budget of a potential customer.
 
+**Output format :**
 
-## Output format
 The output consists of a single integer, the maximum possible revenue you can earn from selling your app.
 
+ ------------------------------------------------------------------------------------------------------------
 
-## Sample Input 1
-4
-30
-20
-53
+**Sample Input 1 :**
+
+4<br>
+30<br>
+20<br>
+53<br>
 14
 
-## Sample Output 1
+**Sample Output 1 :**
+
 60
 
-## Sample Input 2
-5
-40
-3
-65
-33
+
+**Sample Input 2 :**
+
+5<br>
+40<br>
+3<br>
+65<br>
+33<br>
 21
 
-## Sample Output 2
+**Sample Output 2 :**
+
 99
-
-## Test data
-Each customers' budget is between 1 and 108, inclusive.
-
-
-## Subtask 1 : 1 ≤ N ≤ 5000.
-
-## Subtask 2  : 1 ≤ N ≤ 5×105.
-
+<br><br>
 
 # QUESTION 10
 
