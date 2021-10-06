@@ -367,3 +367,93 @@ Next line contains the number B
 **Output format :**
 
 Print the maximum woven number
+
+# QUESTION 9
+
+
+You are developing a smartphone app. You have a list of potential customers for your app. Each customer has a budget and will buy the app at your declared price if and only if the price is less than or equal to the customer's budget.
+
+
+You want to fix a price so that the revenue you earn from the app is maximized. Find this maximum possible revenue.
+
+
+For instance, suppose you have 4 potential customers and their budgets are 30, 20, 53 and 14. In this case, the maximum revenue you can get is 60 .
+
+
+## Input format
+Line 1 : N, the total number of potential customers.
+
+Lines 2 to N+1: Each line has the budget of a potential customer.
+
+
+## Output format
+The output consists of a single integer, the maximum possible revenue you can earn from selling your app.
+
+
+## Sample Input 1
+4
+30
+20
+53
+14
+
+## Sample Output 1
+60
+
+## Sample Input 2
+5
+40
+3
+65
+33
+21
+
+## Sample Output 2
+99
+
+## Test data
+Each customers' budget is between 1 and 108, inclusive.
+
+
+## Subtask 1 : 1 ≤ N ≤ 5000.
+
+## Subtask 2  : 1 ≤ N ≤ 5×105.
+
+
+# QUESTION 10
+
+Most problems in cp highlight coders love for food and cooking but little is known about his love for racing sports. He is an avid Formula 1 fan. He went to watch this year's Indian Grand Prix at New Delhi. He noticed that one segment of the circuit was a long straight road. It was impossible for a car to overtake other cars on this segment. Therefore, a car had to lower down its speed if there was a slower car in front of it. While watching the race, Chef started to wonder how many cars were moving at their maximum speed.
+
+Formally, you're given the maximum speed of N cars in the order they entered the long straight segment of the circuit. Each car prefers to move at its maximum speed. If that's not possible because of the front car being slow, it might have to lower its speed. It still moves at the fastest possible speed while avoiding any collisions. For the purpose of this problem, you can assume that the straight segment is infinitely long.
+
+Count the number of cars which were moving at their maximum speed on the straight segment.
+
+## Input
+The first line of the input contains a single integer T denoting the number of test cases to follow. Description of each test case contains 2 lines. The first of these lines contain a single integer N, the number of cars. The second line contains N space separated integers, denoting the maximum speed of the cars in the order they entered the long straight segment.
+
+## Output
+For each test case, output a single line containing the number of cars which were moving at their maximum speed on the segment.
+
+## Example
+## Input:
+3<br>
+1<br>
+10<br>
+3<br>
+8 3 6<br>
+5<br>
+4 5 1 2 3
+
+## Output:
+1<br>
+2<br>
+2<br>
+## Constraints
+1 ≤ T ≤ 100
+1 ≤ N ≤ 10,000
+All speeds are distinct positive integers that fit in a 32 bit signed integer.
+Each input file will not be larger than 4 MB (4,000,000,000 bytes) in size.
+
+WARNING! The input files are very large. Use faster I/O.
+
+
