@@ -269,20 +269,20 @@ The sum of M over all test cases is at most 106.
 Subtask 1: original constraints
 
 ## Sample Input 1 
-3
-5 1
-1 0 0 0 0
-5
-5 1
-1 0 0 0 2
-4
-5 2
-2 0 0 0 1
-3 1
+3<br>
+5 1<br>
+1 0 0 0 0<br>
+5<br>
+5 1<br>
+1 0 0 0 2<br>
+4<br>
+5 2<br>
+2 0 0 0 1<br>
+3 1<br>
 ## Sample Output 1 
-4
-1
--1 0
+4<br>
+1<br>
+-1 0<br>
 
 
 # QUESTION 7
@@ -305,11 +305,11 @@ Subtask 1: d≤D≤100
 Subtask 2: original constraints
 
 ## Sample Input 1 
-3
-2 1 1 1
-3 2 1 1
-5 2 1 2
+3 <br>
+2 1 1 1<br>
+3 2 1 1<br>
+5 2 1 2<br>
 ## Sample Output 1 
-3
-4
-13
+3<br>
+4<br>
+13<br>
