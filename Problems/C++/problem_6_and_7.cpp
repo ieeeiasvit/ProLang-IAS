@@ -1,3 +1,5 @@
+# problem_6
+
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long int ll;
@@ -58,3 +60,39 @@ int main() {
   
 	return 0;
 }
+
+
+
+# problem_7
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    
+    long long n;
+    cin>>n;
+    while(n--)
+    {
+        long long D,d,p,q;
+        cin>>D>>d>>p>>q;
+        long long b=D/d;
+        if(D%d==0){
+            long long ans=d*b*p + q*(b-1)*(b)*d/2;
+            cout<<ans<<endl;
+        }
+        else
+        {
+            long long ans=d*b*p + q*(b-1)*b*d/2;
+            long long rem=D%d;
+            ans = ans + rem*(p+b*q);
+            cout<<ans<<endl;
+            
+        }
+       
+    }
+    
+	return 0;
+}
+
