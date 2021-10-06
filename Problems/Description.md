@@ -238,7 +238,7 @@ Output the minimum length of the string that may remain after applying the descr
 6
 <br><br>
 
-# QUESTION 6
+# Question 6
 
 ### There are N cities in Chefland numbered from 1 to N and every city has a railway station. Some cities have a train and each city has at most one train originating from it. 
 
@@ -266,7 +266,7 @@ The first line contains an integer T, the number of test cases. Then the test ca
 Each test case contains three lines of input.<br>
 The first line contains two integers N, M.<br>
 The second line contains N integers A1,A2,…,AN.<br>
-The third line contains M integers B1,B2,…,BM.<br>
+The third line contains M integers B1,B2,…,BM.
 
 **Output format :**
 
@@ -294,7 +294,7 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 -1 0
 <br><br>
 
-# QUESTION 7
+# Question 7
 
 ### Rajesh is planning a heist in the reserve bank of Chefland. They are planning to hijack the bank for D days and print the money. 
 
@@ -307,7 +307,6 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 1≤T≤105<br>
 1≤d≤D≤106<br>
 1≤P,Q≤106<br>
-
 
  ------------------------------------------------------------------------------------------------------------
 
@@ -334,3 +333,37 @@ For each test case, output in a single line the answer to the problem.
 3<br>
 4<br>
 13
+<br><br>
+
+# Question 8
+
+## Maximum Weaving Number
+
+**Given two numbers A=a1a2...an and B= b1b2...Bm, we can weave these two numbers to produce the following numbers.**
+
+**a1b1a2b2...anbnb(n+1)...bm,, if m>n<br>
+a1b1a2b2...ambma(m+1)...an if m<n<br>
+a1b1a2b2...anbn if m=n.<br>
+Similarly, we can also get b1a1b2a2.... as above.**
+
+**We can also start weaving from the end. By weaving from the end, we can form the words: anbnb(n-1)a(n-1)... , bnanb(n-1)a(n-1)...<br>
+Thus, by weaving A and B, four new numbers are formed: weaving from the beginning, starting with A, weaving from the beginning, starting with B, weaving from the end, starting with A, weaving from the end, starting with B. While weaving two numbers A and B, if all the digits of A are weaved and some more digits are there in B, the remaining digits of B are just appended at the end.** 
+
+**For example, if A = 27 and B = 54 then there are four numbers that can be woven<br>
+2574<br>
+5247<br>
+7425<br>
+4752<br>
+and maximum out of these is 7425<br>
+Given two numbers A and B, write a code to compute the numbers woven by A &B and find the maximum woven number.**
+
+ ------------------------------------------------------------------------------------------------------------
+
+**Input format :**
+
+First line contains the number A<br>
+Next line contains the number B
+
+**Output format :**
+
+Print the maximum woven number
