@@ -236,39 +236,46 @@ Output the minimum length of the string that may remain after applying the descr
 **Sample Output 3 :**
 
 6
-
+<br><br>
 
 # QUESTION 6
 
+### There are N cities in Chefland numbered from 1 to N and every city has a railway station. Some cities have a train and each city has at most one train originating from it. 
 
-There are N cities in Chefland numbered from 1 to N and every city has a railway station. Some cities have a train and each city has at most one train originating from it. The trains are represented by an array A, where Ai=0 means the i-th city doesn't have any train originating from it, Ai=1 means the train originating from the i-th city is moving right (to a higher numbered city), and Ai=2 means the train originating from the i-th city is moving left (to a lower numbered city).
+**The trains are represented by an array A, where Ai=0 means the i-th city doesn't have any train originating from it, Ai=1 means the train originating from the i-th city is moving right (to a higher numbered city), and Ai=2 means the train originating from the i-th city is moving left (to a lower numbered city).**
 
-Each train keeps on going forever in its direction and takes 1 minute to travel from the current station to the next one. There is a special station at city 1 which lets travellers instantaneously teleport to any other station that currently has a train. Teleportation and getting on a train once in the city both take 0 minutes and all trains start at time 0.
+**Each train keeps on going forever in its direction and takes 1 minute to travel from the current station to the next one. There is a special station at city 1 which lets travellers instantaneously teleport to any other station that currently has a train. Teleportation and getting on a train once in the city both take 0 minutes and all trains start at time 0.**
 
-There are M travellers at city 1, and the i-th traveller has destination city Bi. They ask Chef to guide them to teleport to a particular station from which they can catch a train to go to their destination in the least time possible. In case it's not possible for a person to reach his destination, print −1.
+**There are M travellers at city 1, and the i-th traveller has destination city Bi. They ask Chef to guide them to teleport to a particular station from which they can catch a train to go to their destination in the least time possible. In case it's not possible for a person to reach his destination, print −1.**
 
+------------------------------------------------------------------------------------------------------------
 
-## Input
-The first line contains an integer T, the number of test cases. Then the test cases follow.
-Each test case contains three lines of input.
-The first line contains two integers N, M.
-The second line contains N integers A1,A2,…,AN.
-The third line contains M integers B1,B2,…,BM.
+**Constraints :**
 
-## Output
-For each test case, output M space-separated integers C1,C2,…,CM, where Ci is the minimum time required by the i-th traveller to reach his destination and if the i-th traveller can't reach his destination, Ci=−1.
-
-## Constraints
-1≤N,M≤105
-0≤Ai≤2
-1≤Bi≤N
-The sum of N over all test cases is at most 106.
+1≤N,M≤105<br>
+0≤Ai≤2<br>
+1≤Bi≤N<br>
+The sum of N over all test cases is at most 106.<br>
 The sum of M over all test cases is at most 106.
 
-## Subtasks
-Subtask 1: original constraints
+ ------------------------------------------------------------------------------------------------------------
 
-## Sample Input 1 
+**Input format :**
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.<br>
+Each test case contains three lines of input.<br>
+The first line contains two integers N, M.<br>
+The second line contains N integers A1,A2,…,AN.<br>
+The third line contains M integers B1,B2,…,BM.<br>
+
+**Output format :**
+
+For each test case, output M space-separated integers C1,C2,…,CM, where Ci is the minimum time required by the i-th traveller to reach his destination and if the i-th traveller can't reach his destination, Ci=−1.
+
+-------------------------------------------------
+
+**Sample Input 1 :**
+
 3<br>
 5 1<br>
 1 0 0 0 0<br>
@@ -278,38 +285,52 @@ Subtask 1: original constraints
 4<br>
 5 2<br>
 2 0 0 0 1<br>
-3 1<br>
-## Sample Output 1 
+3 1
+
+**Sample Output 1 :**
+
 4<br>
 1<br>
--1 0<br>
-
+-1 0
+<br><br>
 
 # QUESTION 7
 
-Rajesh is planning a heist in the reserve bank of Chefland. They are planning to hijack the bank for D days and print the money. The initial rate of printing the currency is P dollars per day and they increase the production by Q dollars after every interval of d days. For example, after d days the rate is P+Q dollars per day, and after 2d days the rate is P+2Q dollars per day, and so on. Output the amount of money they will be able to print in the given period.
+### Rajesh is planning a heist in the reserve bank of Chefland. They are planning to hijack the bank for D days and print the money. 
 
-## Input
-The first line contains an integer T, the number of test cases. Then the test cases follow.
+**The initial rate of printing the currency is P dollars per day and they increase the production by Q dollars after every interval of d days. For example, after d days the rate is P+Q dollars per day, and after 2d days the rate is P+2Q dollars per day, and so on. Output the amount of money they will be able to print in the given period.**
+
+------------------------------------------------------------------------------------------------------------
+
+**Constraints :**
+
+1≤T≤105<br>
+1≤d≤D≤106<br>
+1≤P,Q≤106<br>
+
+
+ ------------------------------------------------------------------------------------------------------------
+
+**Input format :**
+
+The first line contains an integer T, the number of test cases. Then the test cases follow.<br>
 Each test case contains a single line of input, four integers D,d,P,Q.
-Output
+
+**Output format :**
+
 For each test case, output in a single line the answer to the problem.
 
-## Constraints
-1≤T≤105
-1≤d≤D≤106
-1≤P,Q≤106
+-------------------------------------------------
 
-## Subtasks
-Subtask 1: d≤D≤100
-Subtask 2: original constraints
+**Sample Input 1 :**
 
-## Sample Input 1 
 3 <br>
 2 1 1 1<br>
 3 2 1 1<br>
 5 2 1 2<br>
-## Sample Output 1 
+
+**Sample Output 1 :**
+
 3<br>
 4<br>
-13<br>
+13
