@@ -1,4 +1,4 @@
-# problem_6
+# problem_5
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -64,7 +64,7 @@ int main() {
 
 
 
-# problem_7
+# problem_6
 
 
 #include <iostream>
