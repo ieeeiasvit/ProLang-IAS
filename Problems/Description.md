@@ -203,11 +203,11 @@ Output the minimum length of the string that may remain after applying the descr
 
 **Constraints :**
 
-1≤N,M≤105<br>
+1≤N,M≤10<sup>5</sup><br>
 0≤Ai≤2<br>
 1≤Bi≤N<br>
-The sum of N over all test cases is at most 106.<br>
-The sum of M over all test cases is at most 106.
+The sum of N over all test cases is at most 10<sup>6</sup>.<br>
+The sum of M over all test cases is at most 10<sup>6</sup>.
 
  ------------------------------------------------------------------------------------------------------------
 
@@ -255,9 +255,9 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 
 **Constraints :**
 
-1≤T≤105<br>
-1≤d≤D≤106<br>
-1≤P,Q≤106
+1≤T≤10<sup>5</sup><br>
+1≤d≤D≤10<sup>6</sup><br>
+1≤P,Q≤10<sup>6</sup>
 
  ------------------------------------------------------------------------------------------------------------
 
@@ -425,7 +425,7 @@ For each test case, output a single line containing the number of cars which wer
 
 ### Given an array A1,A2…AN, find the minimum number of operations (possibly zero) required to convert all integers in A to 0.
 
-**In one operation, you choose a non-negative integer p (p≥0), select at most K indices in the array A, and for each selected index i, replace Ai with Ai⊕2p. Here, ⊕ denotes bitwise XOR.**
+**In one operation, you choose a non-negative integer p (p≥0), select at most K indices in the array A, and for each selected index i, replace Ai with A<sub>i</sub> ⊕ 2p. Here, ⊕ denotes bitwise XOR.**
 
 ------------------------------------------------------------------------------------------------------------
 
