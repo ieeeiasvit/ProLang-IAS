@@ -444,13 +444,13 @@ Constraints
 The sum of N over all test cases does not exceed 2⋅105
 Subtasks
 Subtask #1 (100 points): Original Constraints
-Sample Input
+Sample Input<br>
 1<br>
 3 2<br>
 3 2<br>
 3 6 10<br>
-Sample Output
-5
+Sample Output<br>
+5<br>
 
 
 
@@ -473,9 +473,9 @@ Constraints
 1≤d<7
 1≤z<x<y≤18
 Subtasks
-Subtask #1 (100 points): Original constraints
+Subtask #1: Original constraints
 
-Sample Input
+Sample Input<br>
 3<br>
 1 2 3 1<br>
 6 2 3 1<br>
