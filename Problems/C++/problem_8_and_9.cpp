@@ -1,4 +1,4 @@
-# Question 9
+# Question 8
 
 #include <bits/stdc++.h>
 
@@ -38,7 +38,7 @@ return 0;
 }
 
 
-# Question 10
+# Question 9
 
 #include <iostream>
 using namespace std;
