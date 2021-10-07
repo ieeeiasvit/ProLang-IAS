@@ -93,56 +93,7 @@ Print a single integer — the total number of calories that Jury wastes.
   13
   <br><br>
 
- # Question 3
-
-## Beautiful Matrix
-
-### You've got a 5 × 5 matrix, consisting of 24 zeroes and a single number one. Let's index the matrix rows by numbers from 1 to 5 from top to bottom, let's index the matrix columns by numbers from 1 to 5 from left to right. In one move, you are allowed to apply one of the two following transformations to the matrix:
-
-**a. Swap two neighboring matrix rows, that is, rows with indexes i and i + 1 for some integer i (1 ≤ i < 5).**<br>
-**b. Swap two neighboring matrix columns, that is, columns with indexes j and j + 1 for some integer j (1 ≤ j < 5).**
-
-**You think that a matrix looks beautiful, if the single number one of the matrix is located in its middle (in the cell that is on the intersection of the third row and the third column). Count the minimum number of moves needed to make the matrix beautiful.**
-  
- ------------------------------------------------------------------------------------------------------------
-  
-**Input format :**
-
-The input consists of five lines, each line contains five integers: the j-th integer in the i-th line of the input represents the element of the matrix that is located on the intersection of the i-th row and the j-th column. It is guaranteed that the matrix consists of 24 zeroes and a single number one.
-  
-**Output format :**
-
-Print a single integer — the minimum number of moves needed to make the matrix beautiful.
-  
- ------------------------------------------------------------------------------------------------------------
-
-**Sample Input 1 :**
-
-0 0 0 0 0<br>
-0 0 0 0 1<br>
-0 0 0 0 0<br>
-0 0 0 0 0<br>
-0 0 0 0 0<br>
-  
-**Sample Output 1 :**
-
-3
-  
-  
-**Sample Input 2 :**
-
-0 0 0 0 0<br>
-0 0 0 0 0<br>
-0 1 0 0 0<br>
-0 0 0 0 0<br>
-0 0 0 0 0<br>
-  
-**Sample Output 2 :**
-
-1
-<br><br>
-
-# Question 4
+# Question 3
 
 ## Gravity Flip
 
@@ -185,7 +136,7 @@ Output n integer numbers separated by spaces, where the i-th number is the amoun
 2 3 8 
 <br><br>
 
-# Question 5
+# Question 4
 
 ## Case of the Zeros and Ones
 
@@ -238,7 +189,7 @@ Output the minimum length of the string that may remain after applying the descr
 6
 <br><br>
 
-# Question 6
+# Question 5
 
 ### There are N cities in Chefland numbered from 1 to N and every city has a railway station. Some cities have a train and each city has at most one train originating from it. 
 
@@ -294,7 +245,7 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 -1 0
 <br><br>
 
-# Question 7
+# Question 6
 
 ### Rajesh is planning a heist in the reserve bank of Chefland. They are planning to hijack the bank for D days and print the money. 
 
@@ -335,7 +286,7 @@ For each test case, output in a single line the answer to the problem.
 13
 <br><br>
 
-# Question 8
+# Question 7
 
 ## Maximum Weaving Number
 
@@ -369,7 +320,7 @@ Next line contains the number B
 Print the maximum woven number
 <br><br>
 
-# Question 9
+# Question 8
 
 ### You are developing a smartphone app. You have a list of potential customers for your app. Each customer has a budget and will buy the app at your declared price if and only if the price is less than or equal to the customer's budget.
 
@@ -417,7 +368,7 @@ The output consists of a single integer, the maximum possible revenue you can ea
 99
 <br><br>
 
-# Question 10
+# Question 9
 
 ### Most problems in cp highlight coders love for food and cooking but little is known about his love for racing sports. 
 
