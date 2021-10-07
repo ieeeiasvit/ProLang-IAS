@@ -419,3 +419,72 @@ For each test case, output a single line containing the number of cars which wer
 1<br>
 2<br>
 2
+
+# question 10
+
+
+Given an array A1,A2…AN, find the minimum number of operations (possibly zero) required to convert all integers in A to 0.
+
+In one operation, you
+
+choose a non-negative integer p (p≥0),
+select at most K indices in the array A, and
+for each selected index i, replace Ai with Ai⊕2p. Here, ⊕ denotes bitwise XOR.
+Input
+The first line contains an integer T - the number of test cases. Then T test cases follow.
+The first line of each test case contains two integers N, K - the size of the array and the maximum number of elements you can select in an operation.
+The second line of each test case contains N integers A1,A2…AN.
+Output
+For each test case, output the minimum number of operations to make all elements of the array 0.
+
+Constraints
+1≤T≤105
+1≤N,K≤105
+0≤Ai≤109
+The sum of N over all test cases does not exceed 2⋅105
+Subtasks
+Subtask #1 (100 points): Original Constraints
+Sample Input<br>
+1<br>
+3 2<br>
+3 2<br>
+3 6 10<br>
+Sample Output<br>
+5<br>
+
+
+
+# question 11
+
+Chefland has 7 days in a week. Chef is very conscious about his work done during the week.
+
+There are two ways he can spend his energy during the week. The first way is to do x units of work every day and the second way is to do y (>x) units of work for the first d (<7) days and to do z (<x) units of work thereafter since he will get tired of working more in the initial few days.
+
+Find the maximum amount of work he can do during the week if he is free to choose either of the two strategies.
+
+Input
+The first line contains an integer T, the number of test cases. Then the test cases follow.
+Each test case contains a single line of input, four integers d, x, y, z.
+Output
+For each testcase, output in a single line the answer to the problem.
+
+Constraints
+1≤T≤5⋅103
+1≤d<7
+1≤z<x<y≤18
+Subtasks
+Subtask #1: Original constraints
+
+Sample Input<br>
+3<br>
+1 2 3 1<br>
+6 2 3 1<br>
+1 2 8 1<br>
+Sample Output
+14<br>
+19<br>
+14<br>
+
+
+
+
