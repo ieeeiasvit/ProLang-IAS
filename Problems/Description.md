@@ -108,8 +108,8 @@ Print a single integer — the total number of calories that Jury wastes.
 **Constraints :**
 
 1≤N,M≤10<sup>5</sup><br>
-0≤Ai≤2<br>
-1≤Bi≤N<br>
+0≤A<sub>i</sub>≤2<br>
+1≤B<sub>i</sub>≤N<br>
 The sum of N over all test cases is at most 10<sup>6</sup>.<br>
 The sum of M over all test cases is at most 10<sup>6</sup>.
 
