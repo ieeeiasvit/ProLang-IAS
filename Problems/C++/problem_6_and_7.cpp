@@ -1,100 +1,85 @@
-# problem_6
+# Question 8
 
 #include <bits/stdc++.h>
-using namespace std;
-typedef long long int ll;
 
-int main() {
-    ll t;
-    cin>>t;
-    while(t--)
-    {
-        ll n,m;
-        cin>>n>>m;
-        
-        int a[n];
-        for(int i=0;i<n;i++) cin>>a[i];
-    
-        int b[m];
-        for (int i=0;i<m;i++) cin>>b[i];
-        
-        
-        
-        int MAX=1e9;
-        map<int,int>mp;
-        for(int i=0;i<n;i++)
-        {
-            if(i==0) mp[i]=0;
-            else if (a[i]!=0) mp[i]=0;
-            else mp[i]=MAX;
-        }
-        
-        int ryt=-1;
-        for(int i=0;i<n;i++)
-        {
-            
-           if(a[i]==1) ryt=i;
-           if(ryt!=-1){
-             if(a[i]==0) mp[i]=min(mp[i],i-ryt);
-            }
-        }
-        int left=-1;
-        for(int i=n-1;i>=0;i--){
-            
-            if(a[i]==2) left=i;
-            if(left!=-1){
-                 if(a[i]==0) mp[i]=min(mp[i],left-i);
-        }
-                
-            
-        }  
-        
-        for(int i=0;i<m;i++){
-            int j=b[i]-1;
-            if(mp[j]!=MAX) cout<<mp[j]<<" ";
-            else cout<<-1<<" ";
-        }
-        cout<<endl;
-    }
-    
+using namespace std;
+
+#define ll long long
+ 
+void solve(){
+	ll int inf = 1e9+7;
+  ll int n;
+  cin >> n;
+  ll int arr[n];
+  for (ll int i = 0  ; i < n ; i++){
+  	cin >> arr[i];
+  }
+  sort(arr,arr+n);
+
+  ll int ans = -inf;
+  for (ll int i = 0 ; i < n ; i++){
+      ans = max(ans, arr[i]*(n-i) );
   
-	return 0;
+
+  }
+  cout << ans << endl;
+
+
+}
+int main(){
+ios::sync_with_stdio(0); cin.tie(0);
+  ll int tc = 1;
+  // cin >> tc;
+  while(tc--){
+  	solve();
+  }
+
+return 0;
 }
 
 
-
-
-# problem_7
-
+# Question 9
 
 #include <iostream>
 using namespace std;
 
-
 int main() {
-    
-    long long n;
-    cin>>n;
-    while(n--)
-    {
-        long long D,d,p,q;
-        cin>>D>>d>>p>>q;
-        long long b=D/d;
-        if(D%d==0){
-            long long ans=d*b*p + q*(b-1)*(b)*d/2;
-            cout<<ans<<endl;
-        }
-        else
-        {
-            long long ans=d*b*p + q*(b-1)*b*d/2;
-            long long rem=D%d;
-            ans = ans + rem*(p+b*q);
-            cout<<ans<<endl;
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    int t;
+    cin>>t;
+    while(t--){
+        
+        int n;
+        cin>>n;
+        int speed;
+        int arr[n];
+        for(int i=0;i<n;i++){
+            cin>>speed;
+            arr[i]=speed;
             
         }
-       
+        int count=1;
+        int min=arr[0];
+        for(int i=1;i<n;i++){
+            //max=arr[i];
+            if(arr[i-1]<=min){
+                
+                min=arr[i-1];
+            }
+                
+            
+                 if(arr[i]<=arr[i-1] && arr[i]<=min){
+                         count++;
+                  }
+            
+        }
+        /*if(arr[n-2]>=arr[n-1] && ){
+            count++;
+        }*/
+        cout<<count<<endl;
     }
-    
+	// your code goes here
 	return 0;
 }
-
