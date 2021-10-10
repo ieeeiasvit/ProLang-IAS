@@ -95,102 +95,6 @@ Print a single integer — the total number of calories that Jury wastes.
 
 # Question 3
 
-## Gravity Flip
-
-### Little Chris is bored during his physics lessons (too easy), so he has built a toy box to keep himself occupied. The box is special, since it has the ability to change gravity.
-
-**There are n columns of toy cubes in the box arranged in a line. The i-th column contains ai cubes. At first, the gravity in the box is pulling the cubes downwards. When Chris switches the gravity, it begins to pull all the cubes to the right side of the box. The figure shows the initial and final configurations of the cubes in the box: the cubes that have changed their position are highlighted with orange.**
-
-**Given the initial configuration of the toy cubes in the box, find the amounts of cubes in each of the n columns after the gravity switch!**
-
- ------------------------------------------------------------------------------------------------------------
-  
-**Input format :**
-
-The first line of input contains an integer n (1 ≤ n ≤ 100), the number of the columns in the box. <br>
-The next line contains n space-separated integer numbers. The i-th number ai (1 ≤ ai ≤ 100) denotes the number of cubes in the i-th column.
-  
-**Output format :**
-
-Output n integer numbers separated by spaces, where the i-th number is the amount of cubes in the i-th column after the gravity switch.
-  
- ------------------------------------------------------------------------------------------------------------
-
-**Sample Input 1 :**
-
-4<br>
-3 2 1 2
-  
-**Sample Output 1 :**
-
-1 2 2 3 
-  
-  
-**Sample Input 2 :**
-
-3<br>
-2 3 8
-  
-**Sample Output 2 :**
-
-2 3 8 
-<br><br>
-
-# Question 4
-
-## Case of the Zeros and Ones
-
-### Andreid the Android is a galaxy-famous detective. In his free time he likes to think about strings containing zeros and ones.
-
-**Once he thought about a string of length n consisting of zeroes and ones. Consider the following operation: we choose any two adjacent positions in the string, and if one them contains 0, and the other contains 1, then we are allowed to remove these two digits from the string, obtaining a string of length n - 2 as a result.**
-
-**Now Andreid thinks about what is the minimum length of the string that can remain after applying the described operation several times (possibly, zero)? Help him to calculate this number.**
-
- ------------------------------------------------------------------------------------------------------------
-  
-**Input format :**
-
-First line of the input contains a single integer n (1 ≤ n ≤ 2·10<sup>5</sup>), the length of the string that Andreid has.<br>
-The second line contains the string of length n consisting only from zeros and ones.
-  
-**Output format :**
-
-Output the minimum length of the string that may remain after applying the described operations several times.
-  
- ------------------------------------------------------------------------------------------------------------
-
-**Sample Input 1 :**
-
-4<br>
-1100
-  
-**Sample Output 1 :**
-
-0
-  
-  
-**Sample Input 2 :**
-
-5<br>
-01010<br>
-  
-**Sample Output 2 :**
-
-1
-
-
-**Sample Input 3 :**
-
-8<br>
-11101111
-  
-**Sample Output 3 :**
-
-6
-<br><br>
-
-# Question 5
-
 ### There are N cities in Chefland numbered from 1 to N and every city has a railway station. Some cities have a train and each city has at most one train originating from it. 
 
 **The trains are represented by an array A, where Ai=0 means the i-th city doesn't have any train originating from it, Ai=1 means the train originating from the i-th city is moving right (to a higher numbered city), and Ai=2 means the train originating from the i-th city is moving left (to a lower numbered city).**
@@ -204,8 +108,8 @@ Output the minimum length of the string that may remain after applying the descr
 **Constraints :**
 
 1≤N,M≤10<sup>5</sup><br>
-0≤Ai≤2<br>
-1≤Bi≤N<br>
+0≤A<sub>i</sub>≤2<br>
+1≤B<sub>i</sub>≤N<br>
 The sum of N over all test cases is at most 10<sup>6</sup>.<br>
 The sum of M over all test cases is at most 10<sup>6</sup>.
 
@@ -245,7 +149,7 @@ For each test case, output M space-separated integers C1,C2,…,CM, where Ci is 
 -1 0
 <br><br>
 
-# Question 6
+# Question 4
 
 ### Rajesh is planning a heist in the reserve bank of Chefland. They are planning to hijack the bank for D days and print the money. 
 
@@ -286,7 +190,7 @@ For each test case, output in a single line the answer to the problem.
 13
 <br><br>
 
-# Question 7
+# Question 5
 
 ## Maximum Weaving Number
 
@@ -320,7 +224,7 @@ Next line contains the number B
 Print the maximum woven number
 <br><br>
 
-# Question 8
+# Question 6
 
 ### You are developing a smartphone app. You have a list of potential customers for your app. Each customer has a budget and will buy the app at your declared price if and only if the price is less than or equal to the customer's budget.
 
@@ -368,7 +272,7 @@ The output consists of a single integer, the maximum possible revenue you can ea
 99
 <br><br>
 
-# Question 9
+# Question 7
 
 ### Most problems in cp highlight coders love for food and cooking but little is known about his love for racing sports. 
 
@@ -421,7 +325,7 @@ For each test case, output a single line containing the number of cars which wer
 2
 <br><br>
 
-# Question 10
+# Question 8
 
 ### Given an array A1,A2…AN, find the minimum number of operations (possibly zero) required to convert all integers in A to 0.
 
@@ -462,7 +366,7 @@ For each test case, output the minimum number of operations to make all elements
 5
 <br><br>
 
-# Question 11
+# Question 9
 
 ### Chefland has 7 days in a week. Chef is very conscious about his work done during the week.
 
