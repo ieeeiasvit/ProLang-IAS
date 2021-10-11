@@ -408,3 +408,40 @@ For each testcase, output in a single line the answer to the problem.
 19<br>
 14
 <br><br>
+
+# Question 10
+
+## Left Rotation
+
+### A left rotation operation on an array of size n shifts each of the array's elements 1 unit to the left. Given an integer, d, rotate the array that many steps left and return the result.
+
+------------------------------------------------------------------------------------------------------------
+
+**Constraints :**
+
+1≤n≤10<sup>5</sup><br>
+1≤d<n<br>
+1≤a[i]≤10<sup>6</sup>
+
+ ------------------------------------------------------------------------------------------------------------
+
+**Input format :**
+
+The first line contains two space-separated integers that denote n, the number of integers, and d, the number of left rotations to perform.
+The second line contains n space-separated integers that describe arr[].
+
+**Output format :**
+
+A single line containing n space-separated integers after performing the rotation.
+
+ ------------------------------------------------------------------------------------------------------------
+
+**Sample Input 1 :**
+
+5 4<br>
+1 2 3 4 5 
+
+**Sample Output 1 :**
+
+5 1 2 3 4
+<br><br>
