@@ -1,3 +1,8 @@
+/* Stack Span Algoritm
+The span of a stack price is defined as the maximum number of consecutive days (starting from today and going backwards) for which the price of the stocks was less than or equal to todays Price
+Sample Input: [100,80,60,70,60,75,85]
+Sample output: ans[1,1,1,2,1,4,6] */
+
 # include<bits/stdc++.h>
 using namespace std;
 vector<int> stackspan(vector<int> a)
