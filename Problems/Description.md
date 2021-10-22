@@ -445,3 +445,33 @@ A single line containing n space-separated integers after performing the rotatio
 
 5 1 2 3 4
 <br><br>
+
+--------------------------------------------------------------------------------------------------------------
+
+# Question 11
+
+## GCD of Two numbers
+
+### GCD of two numbers is the largest number that divides both of them. A simple way to find GCD is to factorize both numbers and multiply common prime factors. In this program we will find the GCD of two numbers in a new approach. Recursive function based on euclidean algorithm. We chose this program because it's time complexity is O(log(min(a,b)))
+
+----------------------------------------------------------------------------------------------------------------
+
+**Input Format:**
+
+Two space-separated integers
+
+**Output Format:**
+
+A single integer 
+
+-----------------------------------------------------------------------------------------------------------------
+
+**Sample Input:**
+
+30 20
+
+**Sample Output:**
+
+10
+
+-----------------------------------------------------------------------------------------------------------------
