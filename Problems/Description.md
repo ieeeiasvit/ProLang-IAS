@@ -474,3 +474,45 @@ A single integer
 
 10
 <br><br>
+
+# Question 12
+
+## Smith Number
+
+**A Smith Number is one whose sum of digits is equal to the sum of digits of its prime factors.**
+
+**Example: 666 is a Smith Number.
+The sum of digits of the number = 6+6+6= 18.**
+
+**Prime factors are 2, 3, 37.
+The sum of digits of its prime factors= 2+3+(3+7)= 18.**
+
+----------------------------------------------------------------------------------------------------------------
+
+**Input format :**
+
+A number N
+
+**Output format :**
+
+"Smith No." or "Not A Smith No."
+
+-----------------------------------------------------------------------------------------------------------------
+
+**Sample Input 1 :**
+
+666
+
+**Sample Output 1 :**
+
+Smith No.
+
+
+**Sample Input 2 :**
+
+235
+
+**Sample Output 2 :**
+
+Not A Smith No.
+<br><br>
